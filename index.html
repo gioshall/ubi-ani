@@ -50,8 +50,8 @@ body {
 }
 
 @-webkit-keyframes logo-zoom-in {
-	0%{width: 700%;height: 700%;top: -390%;left: -350px;}
-	100%{width: 100%;height: 100%;top: 0;left: 0;}
+	0%{perspective: 400px;width: 700%;height: 700%;top: -390%;left: -350px;}
+	100%{perspective: 600px;width: 100%;height: 100%;top: 0;left: 0;}
 }
 
 .logo div {
@@ -62,9 +62,9 @@ body {
 }
 
 @-webkit-keyframes logo-U-zoom-in {
-	0%{transform: perspective( 400px ) rotateX( 60deg );}
-	70%{transform: perspective( 600px ) rotateX( 45deg );top: 0;}
-	100%{transform: perspective( 600px ) rotateX( 0deg );top: 0;}
+	0%{transform: rotateX( 60deg );}
+	70%{transform: rotateX( 45deg );}
+	100%{transform: rotateX( 0deg );}
 }
 
 .logo .logo-U01 {
