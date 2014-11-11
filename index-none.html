@@ -24,8 +24,8 @@ body {
 }
 
 @-webkit-keyframes gb-zoom-in {
-	0%{top: -20%;-webkit-transform: rotate(0deg);}
-	100%{top: -150%;-webkit-transform: rotate(-20deg);}
+	0%{top: -20%;}
+	100%{top: -150%;}
 }
 
 .blue-blk {
@@ -41,8 +41,8 @@ body {
 }
 
 @-webkit-keyframes bb-zoom-in {
-	0%{bottom: -20%;-webkit-transform: rotate(0deg);}
-	100%{bottom: -150%;-webkit-transform: rotate(-20deg);}
+	0%{bottom: -20%;}
+	100%{bottom: -150%;}
 }
 
 .logo {
@@ -50,10 +50,10 @@ body {
 	text-align: center;
 	perspective: 600px;
 	-webkit-perspective: 600px;
-	width: 100%;
-	height: 100%;
-	top: 0;
-	left: 0;
+	width: 300%;
+	height: 300%;
+	top: -100%;
+	left: -100%;
 }
 
 @-webkit-keyframes logo-zoom-in {
@@ -65,8 +65,8 @@ body {
 	position: absolute;
 	height: 100%;
 	width: 100%;
-	transform: rotateX( 60deg );
-	-webkit-transform: rotateX( 60deg );
+	transform: rotateX( 70deg );
+	-webkit-transform: rotateX( 70deg );
 }
 
 @-webkit-keyframes logo-U-zoom-in {
@@ -88,6 +88,7 @@ body {
 .logo .logo-U03 {
 	background: url(logo-U-03.svg) center no-repeat;
 	background-size: auto 100%;
+	margin-top: 10px;
 }
 
 .logo .logo-U04 {
