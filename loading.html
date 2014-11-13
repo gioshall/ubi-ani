@@ -7,7 +7,7 @@
 <script src="http://code.createjs.com/easeljs-0.7.1.min.js"></script>
 <script src="http://code.createjs.com/tweenjs-0.5.1.min.js"></script>
 <script src="http://code.createjs.com/movieclip-0.7.1.min.js"></script>
-<script src="can.js"></script>
+<script src="script.js"></script>
 
 <script>
 var canvas, stage, exportRoot;
@@ -24,9 +24,19 @@ function init() {
 	createjs.Ticker.addEventListener("tick", stage);
 }
 </script>
+
+<style>
+	body {
+		margin: 0;
+		padding: 0;
+	}
+	#canvas {
+		margin: auto
+	}
+</style>
 </head>
 
-<body onload="init();" style="background-color:#D4D4D4">
-	<canvas id="canvas" width="800" height="450" style="background-color:#FFFFFF"></canvas>
+<body onload="init();">
+	<canvas id="canvas" width="800" height="450"></canvas>
 </body>
 </html>
