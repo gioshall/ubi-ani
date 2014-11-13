@@ -136,7 +136,7 @@ p.nominalBounds = new cjs.Rectangle(-985.4,-533.5,2002.6,1148.4);
 
 	this.instance.mask = mask;
 
-	this.timeline.addTween(cjs.Tween.get(this.instance).to({regY:0.5,scaleX:1,scaleY:1,x:757.7,y:642},42).to({_off:true},1).wait(67));
+	this.timeline.addTween(cjs.Tween.get(this.instance).to({regY:0.5,scaleX:1,scaleY:1,x:757.7,y:642},33).to({_off:true},1).wait(67));
 
 	// 圖層 21
 	this.shape = new cjs.Shape();
@@ -285,7 +285,7 @@ p.nominalBounds = new cjs.Rectangle(-985.4,-533.5,2002.6,1148.4);
 
 	this.shape.mask = this.shape_1.mask = this.shape_2.mask = this.shape_3.mask = this.shape_4.mask = this.shape_5.mask = this.shape_6.mask = this.shape_7.mask = this.shape_8.mask = this.shape_9.mask = this.shape_10.mask = this.shape_11.mask = this.shape_12.mask = this.shape_13.mask = this.shape_14.mask = this.shape_15.mask = this.shape_16.mask = this.shape_17.mask = this.shape_18.mask = this.shape_19.mask = this.shape_20.mask = this.shape_21.mask = this.shape_22.mask = this.shape_23.mask = this.shape_24.mask = this.shape_25.mask = this.shape_26.mask = this.shape_27.mask = this.shape_28.mask = this.shape_29.mask = this.shape_30.mask = this.shape_31.mask = this.shape_32.mask = this.shape_33.mask = this.shape_34.mask = this.shape_35.mask = mask;
 
-	this.timeline.addTween(cjs.Tween.get({}).to({state:[]}).to({state:[{t:this.shape_2},{t:this.shape_1},{t:this.shape}]},98).to({state:[{t:this.shape_5},{t:this.shape_4},{t:this.shape_3}]},1).to({state:[{t:this.shape_8},{t:this.shape_7},{t:this.shape_6}]},1).to({state:[{t:this.shape_11},{t:this.shape_10},{t:this.shape_9}]},1).to({state:[{t:this.shape_14},{t:this.shape_13},{t:this.shape_12}]},1).to({state:[{t:this.shape_17},{t:this.shape_16},{t:this.shape_15}]},1).to({state:[{t:this.shape_20},{t:this.shape_19},{t:this.shape_18}]},1).to({state:[{t:this.shape_23},{t:this.shape_22},{t:this.shape_21}]},1).to({state:[{t:this.shape_26},{t:this.shape_25},{t:this.shape_24}]},1).to({state:[{t:this.shape_29},{t:this.shape_28},{t:this.shape_27}]},1).to({state:[{t:this.shape_32},{t:this.shape_31},{t:this.shape_30}]},1).to({state:[{t:this.shape_35},{t:this.shape_34},{t:this.shape_33}]},1).wait(1));
+	this.timeline.addTween(cjs.Tween.get({}).to({state:[]}).to({state:[{t:this.shape_2},{t:this.shape_1},{t:this.shape}]},89).to({state:[{t:this.shape_5},{t:this.shape_4},{t:this.shape_3}]},1).to({state:[{t:this.shape_8},{t:this.shape_7},{t:this.shape_6}]},1).to({state:[{t:this.shape_11},{t:this.shape_10},{t:this.shape_9}]},1).to({state:[{t:this.shape_14},{t:this.shape_13},{t:this.shape_12}]},1).to({state:[{t:this.shape_17},{t:this.shape_16},{t:this.shape_15}]},1).to({state:[{t:this.shape_20},{t:this.shape_19},{t:this.shape_18}]},1).to({state:[{t:this.shape_23},{t:this.shape_22},{t:this.shape_21}]},1).to({state:[{t:this.shape_26},{t:this.shape_25},{t:this.shape_24}]},1).to({state:[{t:this.shape_29},{t:this.shape_28},{t:this.shape_27}]},1).to({state:[{t:this.shape_32},{t:this.shape_31},{t:this.shape_30}]},1).to({state:[{t:this.shape_35},{t:this.shape_34},{t:this.shape_33}]},1).wait(1));
 
 	// 圖層 22
 	this.instance_1 = new lib.btu();
@@ -294,7 +294,7 @@ p.nominalBounds = new cjs.Rectangle(-985.4,-533.5,2002.6,1148.4);
 
 	this.instance_1.mask = mask;
 
-	this.timeline.addTween(cjs.Tween.get(this.instance_1).wait(67).to({_off:false},0).to({scaleX:4.67,scaleY:1.01,skewX:9.1,x:562.9,y:494.7},23,cjs.Ease.get(0.5)).to({regX:51,regY:0.4,scaleX:0.66,scaleY:0.76,skewX:0,x:376.9,y:350.9},7).to({_off:true},1).wait(12));
+	this.timeline.addTween(cjs.Tween.get(this.instance_1).wait(58).to({_off:false},0).to({scaleX:4.67,scaleY:1.01,skewX:9.1,x:562.9,y:494.7},23,cjs.Ease.get(0.5)).to({regX:51,regY:0.4,scaleX:0.66,scaleY:0.76,skewX:0,x:376.9,y:350.9},7).to({_off:true},1).wait(12));
 
 	// 圖層 23
 	this.instance_2 = new lib.U01();
@@ -303,7 +303,7 @@ p.nominalBounds = new cjs.Rectangle(-985.4,-533.5,2002.6,1148.4);
 
 	this.instance_2.mask = mask;
 
-	this.timeline.addTween(cjs.Tween.get(this.instance_2).wait(42).to({_off:false},0).to({scaleX:28.5,scaleY:22.07,x:2071.8,y:1034.6},25,cjs.Ease.get(0.5)).to({_off:true},1).wait(42));
+	this.timeline.addTween(cjs.Tween.get(this.instance_2).wait(33).to({_off:false},0).to({scaleX:28.5,scaleY:22.07,x:2071.8,y:1034.6},25,cjs.Ease.get(0.5)).to({_off:true},1).wait(42));
 
 	// 圖層 24
 	this.instance_3 = new lib.U02b();
@@ -312,7 +312,7 @@ p.nominalBounds = new cjs.Rectangle(-985.4,-533.5,2002.6,1148.4);
 
 	this.instance_3.mask = mask;
 
-	this.timeline.addTween(cjs.Tween.get(this.instance_3).wait(42).to({_off:false},0).to({scaleX:0.96,scaleY:1.33,x:593.8,y:360.3},47,cjs.Ease.get(0.5)).to({regX:179.8,regY:0.8,scaleX:0.16,scaleY:1.25,x:378.1,y:251.7},8).to({_off:true},1).wait(12));
+	this.timeline.addTween(cjs.Tween.get(this.instance_3).wait(33).to({_off:false},0).to({scaleX:0.96,scaleY:1.33,x:593.8,y:360.3},47,cjs.Ease.get(0.5)).to({regX:179.8,regY:0.8,scaleX:0.16,scaleY:1.25,x:378.1,y:251.7},8).to({_off:true},1).wait(12));
 
 	// 圖層 25
 	this.instance_4 = new lib.U03b();
@@ -321,7 +321,7 @@ p.nominalBounds = new cjs.Rectangle(-985.4,-533.5,2002.6,1148.4);
 
 	this.instance_4.mask = mask;
 
-	this.timeline.addTween(cjs.Tween.get(this.instance_4).wait(42).to({_off:false},0).to({scaleX:1,scaleY:0.94,x:595.5,y:263.3},47,cjs.Ease.get(0.5)).to({scaleX:0.2,scaleY:1.37,x:380.5,y:158.4},8).to({_off:true},1).wait(12));
+	this.timeline.addTween(cjs.Tween.get(this.instance_4).wait(33).to({_off:false},0).to({scaleX:1,scaleY:0.94,x:595.5,y:263.3},47,cjs.Ease.get(0.5)).to({scaleX:0.2,scaleY:1.37,x:380.5,y:158.4},8).to({_off:true},1).wait(12));
 
 	// 圖層 26
 	this.instance_5 = new lib.U04();
@@ -330,7 +330,7 @@ p.nominalBounds = new cjs.Rectangle(-985.4,-533.5,2002.6,1148.4);
 
 	this.instance_5.mask = mask;
 
-	this.timeline.addTween(cjs.Tween.get(this.instance_5).wait(42).to({_off:false},0).to({scaleX:7.43,scaleY:6.78,x:590.9,y:242},47,cjs.Ease.get(0.5)).to({scaleX:1.7,scaleY:12.39,x:378.9,y:128.9},8).to({_off:true},1).wait(12));
+	this.timeline.addTween(cjs.Tween.get(this.instance_5).wait(33).to({_off:false},0).to({scaleX:7.43,scaleY:6.78,x:590.9,y:242},47,cjs.Ease.get(0.5)).to({scaleX:1.7,scaleY:12.39,x:378.9,y:128.9},8).to({_off:true},1).wait(12));
 
 	// 圖層 27
 	this.instance_6 = new lib.U05();
@@ -339,7 +339,7 @@ p.nominalBounds = new cjs.Rectangle(-985.4,-533.5,2002.6,1148.4);
 
 	this.instance_6.mask = mask;
 
-	this.timeline.addTween(cjs.Tween.get(this.instance_6).wait(42).to({_off:false},0).to({scaleX:7.65,scaleY:5.94,x:593.8,y:238.7},47,cjs.Ease.get(0.5)).to({scaleX:1.51,scaleY:10.78,x:379.2,y:120.9},8).to({_off:true},1).wait(12));
+	this.timeline.addTween(cjs.Tween.get(this.instance_6).wait(33).to({_off:false},0).to({scaleX:7.65,scaleY:5.94,x:593.8,y:238.7},47,cjs.Ease.get(0.5)).to({scaleX:1.51,scaleY:10.78,x:379.2,y:120.9},8).to({_off:true},1).wait(12));
 
 	// 圖層 28
 	this.shape_36 = new cjs.Shape();
@@ -348,7 +348,7 @@ p.nominalBounds = new cjs.Rectangle(-985.4,-533.5,2002.6,1148.4);
 
 	this.shape_36.mask = mask;
 
-	this.timeline.addTween(cjs.Tween.get(this.shape_36).to({_off:true},42).wait(68));
+	this.timeline.addTween(cjs.Tween.get(this.shape_36).to({_off:true},33).wait(68));
 
 }).prototype = p = new cjs.MovieClip();
 p.nominalBounds = new cjs.Rectangle(400,225,800,450);
