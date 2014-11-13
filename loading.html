@@ -31,13 +31,44 @@ function init() {
 		margin: 0;
 		padding: 0;
 	}
-	#canvas {
-		margin: auto
+
+	.wrapper {
+		position: relative;
+		margin: auto;
+		width: 800px;
+		height: 450px;
+	}
+
+	.logo-u {
+		position: absolute;
+		top: 210px;
+		width: 100%;
+		text-align: center;
+		opacity: 0;
+		-webkit-animation: logo-fadein 0.5s ease-in 3.3s 1 forwards;
+	    animation: logo-fadein 0.5s ease-in 3.3s 1 forwards;
+	}
+
+    @-webkit-keyframes logo-fadein {
+	0%{opacity: 0;}
+	100%{opacity: 1;}
+    }
+
+	@keyframes logo-fadein {
+	0%{opacity: 0;}
+	100%{opacity: 1;}
+	}
+
+	.logo-u img {
+		width: 250px;
 	}
 </style>
 </head>
 
 <body onload="init();">
-	<canvas id="canvas" width="800" height="450"></canvas>
+	<div class="wrapper">
+		<canvas id="canvas" width="800" height="450"></canvas>
+	    <div class="logo-u"><img src="logo.svg"></div>
+	</div>	
 </body>
 </html>
