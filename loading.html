@@ -62,13 +62,58 @@ function init() {
 	.logo-u img {
 		width: 250px;
 	}
+
+	.logo-u .dot {
+		border-radius: 3px;
+		width: 6px;
+		height: 6px;
+		background-color: #626365;
+		position: absolute;
+	}
+
+	.logo-u .dot.d01 {
+		top: 101px;
+		left: 298px;
+		-webkit-animation: logo-dot 1s ease-in 4s infinite;
+	    animation: logo-dot 1s ease-in 4s infinite;
+	}
+
+	.logo-u .dot.d02 {
+		top: 101px;
+		left: 378px;
+		-webkit-animation: logo-dot 1s ease-in 4.2s infinite;
+	    animation: logo-dot 1s ease-in 4.2s infinite;
+	}
+
+	.logo-u .dot.d03 {
+		top: 101px;
+		left: 459px;
+		-webkit-animation: logo-dot 1s ease-in 4.4s infinite;
+	    animation: logo-dot 1s ease-in 4.4s infinite;
+	}
+
+    @-webkit-keyframes logo-dot {
+	0%{background-color: #626365;width: 6px;height: 6px;margin: 0;border-radius: 3px;}
+	30%{background-color: #8dc227;width: 14px;height: 14px;margin: -4px;border-radius: 7px;}
+	50%{background-color: #626365;width: 6px;height: 6px;margin: 0;border-radius: 3px;}
+    }
+
+	@keyframes logo-dot {
+	0%{background-color: #626365;width: 6px;height: 6px;margin: 0;border-radius: 3px;}
+	30%{background-color: #8dc227;width: 14px;height: 14px;margin: -4px;border-radius: 7px;}
+	50%{background-color: #626365;width: 6px;height: 6px;margin: 0;border-radius: 3px;}
+	}
 </style>
 </head>
 
 <body onload="init();">
 	<div class="wrapper">
 		<canvas id="canvas" width="800" height="450"></canvas>
-	    <div class="logo-u"><img src="logo.svg"></div>
+	    <div class="logo-u"><img src="logo.svg">
+	    	<div class="dot d01"></div>
+	    	<div class="dot d02"></div>
+	    	<div class="dot d03"></div>
+	    </div>
 	</div>	
 </body>
 </html>
