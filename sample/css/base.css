@@ -1,0 +1,130 @@
+html,body,#UbiEmbedPlayer,#ubiPlayerPlugin{
+	border: 0;
+	margin: 0;
+	padding: 0;
+	width: 100% !important;
+	height: 100% !important;
+	overflow: hidden;
+}
+body{
+	margin: 0;
+	padding: 0;
+}
+#UbiEmbedPlayer.loading{
+	
+}
+
+.reloadBtn-table{
+	display: table;
+	height: 100%;
+	width: 100%;
+}
+.reloadBtn-td{
+	display: table-cell;
+	vertical-align: middle;
+	text-align: center;
+	height: 100%;
+	width: 100%;
+}
+
+.reloadBtn{
+	display: inline-block;
+	background-color: orange;
+	padding: 10px 40px;
+	font-size: 28px;
+	color: white;
+	border-radius: 30px;
+	cursor: pointer;
+}
+#UbiEmbedPlayer.loading .reloadBtn-table{
+	display: none;
+}
+
+.message{
+	height: 0px;
+	color: white;
+	font-family: arial;
+	color: rgba(209, 209, 209, 0.8);
+	text-align: right;
+}
+.useragent{
+
+}
+
+.str{
+
+}
+
+/* canvas */
+
+	.wrapper {
+		position: relative;
+		margin: auto;
+		width: 800px;
+		height: 450px;
+	}
+
+	.logo-u {
+		position: absolute;
+		top: 210px;
+		width: 100%;
+		text-align: center;
+		opacity: 0;
+		-webkit-animation: logo-fadein 0.5s ease-in 3.3s 1 forwards;
+	    animation: logo-fadein 0.5s ease-in 3.3s 1 forwards;
+	}
+
+    @-webkit-keyframes logo-fadein {
+	0%{opacity: 0;}
+	100%{opacity: 1;}
+    }
+
+	@keyframes logo-fadein {
+	0%{opacity: 0;}
+	100%{opacity: 1;}
+	}
+
+	.logo-u img {
+		width: 250px;
+	}
+
+	.logo-u .dot {
+		border-radius: 3px;
+		width: 6px;
+		height: 6px;
+		background-color: #626365;
+		position: absolute;
+	}
+
+	.logo-u .dot.d01 {
+		top: 101px;
+		left: 298px;
+		-webkit-animation: logo-dot 1s ease-in 4s infinite;
+	    animation: logo-dot 1s ease-in 4s infinite;
+	}
+
+	.logo-u .dot.d02 {
+		top: 101px;
+		left: 378px;
+		-webkit-animation: logo-dot 1s ease-in 4.2s infinite;
+	    animation: logo-dot 1s ease-in 4.2s infinite;
+	}
+
+	.logo-u .dot.d03 {
+		top: 101px;
+		left: 459px;
+		-webkit-animation: logo-dot 1s ease-in 4.4s infinite;
+	    animation: logo-dot 1s ease-in 4.4s infinite;
+	}
+
+    @-webkit-keyframes logo-dot {
+	0%{background-color: #626365;width: 6px;height: 6px;margin: 0;border-radius: 3px;}
+	30%{background-color: #8dc227;width: 14px;height: 14px;margin: -4px;border-radius: 7px;}
+	50%{background-color: #626365;width: 6px;height: 6px;margin: 0;border-radius: 3px;}
+    }
+
+	@keyframes logo-dot {
+	0%{background-color: #626365;width: 6px;height: 6px;margin: 0;border-radius: 3px;}
+	30%{background-color: #8dc227;width: 14px;height: 14px;margin: -4px;border-radius: 7px;}
+	50%{background-color: #626365;width: 6px;height: 6px;margin: 0;border-radius: 3px;}
+	}
